@@ -29,16 +29,13 @@ html {
 body {
     font-family: 'Helvetica Neue',Helvetica,Arial,'Microsoft YaHei',sans-serif;
     color: #333;
-    
+   
     background: url("http://www.planwallpaper.com/static/images/backgrounds_2.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
     
-    position: relative;
-    min-height: 100%;
-    padding-bottom: 190px;
 }
 a {
     text-decoration: none;
