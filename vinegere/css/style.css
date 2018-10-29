@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Mali');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  font-family: Arial, Tahoma;
+}
+.container {
+  height: 100%;
+  background-image: url("https://blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20px 0;
+}
+.wrapper {
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgba(25,25,25,.5);
+  border-radius: 8px;
+}
+.content {
+  
+  text-align: center;
+}
+h1 {
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 16px;
+}
+.content input[type="text"], .content textarea {
+  display: block;
+  margin: 0 auto;
+  height: 30px;
+  width: 300px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+p#about {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: 'Mali', cursive;
+  background-color: #c7ecee;
+  padding: 0 10px;
+  opacity: .5;
+}
+.content textarea {
+  height: 100%;
+  width: 500px;
+  min-width: 500px;
+  max-width: 500px;
+  min-height: 200px;
+  font-size: 15px;
+}
+.content button {
+  padding: 0 25px;
+  height: 35px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  color: rgba(0,0,0,.7);
+  font-weight: bold;
+  background-color: #ffdd57;
+  justify-content: center;
+  text-align: center;
+  line-height: 30px;
+}
+.content button:hover {
+  background-color: #ffd633;
+}
+.content > span {
+  display: block;
+  padding: 10px 0;
+}
+span#length {
+  padding-top: 0;
+}
+input[type="text"]#result {
+  background-color: #6ab04c;
+  width: 50%;
+  margin: 0 auto;
+  text-transform: initial;
+  color: #fff;
+}
+.content input[type="text"]::-webkit-input-placeholder {
+  color: #000;
+}
+.content input[type="text"]::-moz-placeholder {
+  color: #000;
+}
+.content input[type="text"]:-ms-input-placeholder {
+  color: #000;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+  .wrapper {
+    width: 100%;
+    border-radius: inherit;
+  }
+  input[type="text"] {
+    cursor:initial;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+  .wrapper {
+    width: 100%;
+    border-radius: inherit;
+  }
+  input[type="text"] {
+    cursor:initial;
+  }
+}
+input[type="text"]:disabled {
+  background: #dddddd;
+  cursor: not-allowed;
+}

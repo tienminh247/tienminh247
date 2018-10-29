@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vinegere Cipher</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container">
+  <div class="wrapper">
+    <div class="content">
+      <h1>Vinegere</h1>
+      <h3>Plane-text</h3>
+      <textarea placeholder="e.g. Hello world" rows="3" id="plane_text">VINEGERE</textarea>
+      <h3>Keyword</h3>
+      <input type="text" name="keyword" id="keyword" value="VINEGERE"></input>
+      <button name="btn_click" id="btn_click" onclick="Encode();">Encode</button>
+    <button name="btn_click" id="btn_click" onclick="Decrypt();">Decrypt</button>
+    <span>Result</span>
+    <span id="length"></span>
+    <input type="text" name="result" placeholder="
+The results show here after encoding, decoding" id="result" disabled></input>
+    <p id="about">Coder by Tien Minh</p>
+    </div>
+  </div>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
