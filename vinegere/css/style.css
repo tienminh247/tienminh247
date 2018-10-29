@@ -122,6 +122,9 @@ input[type="text"]#result {
     min-width: initial;
     max-width: initial;
   }
+  p#about {
+    display: none;
+  }
 }
 @media screen and (max-width: 1023px) {
   .container {
@@ -139,6 +142,9 @@ input[type="text"]#result {
     width: 100%;
     min-width: initial;
     max-width: initial;
+  }
+  p#about {
+    display: none;
   }
 }
 input[type="text"]:disabled {
